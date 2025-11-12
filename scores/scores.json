@@ -22,13 +22,13 @@
     "Restaurant System Tests": {
       "ReSyTe1": 1,
       "ReSyTe2": 1,
-      "ReSyTe3": 0,
-      "ReSyTe4": 0,
-      "ReSyTe5": 0,
+      "ReSyTe3": 1,
+      "ReSyTe4": 1,
+      "ReSyTe5": 1,
       "ReSyTe6": 1,
-      "ReSyTe7": 0,
-      "ReSyTe8": 0,
-      "ReSyTe9": 0,
+      "ReSyTe7": 1,
+      "ReSyTe8": 1,
+      "ReSyTe9": 1,
       "ReSyTe10": 0,
       "ReSyTe11": 0,
       "ReSyTe12": 0,
@@ -109,7 +109,7 @@
   },
   "humanReadable": {
     "Payment System Tests": "0/17",
-    "finalTestScore": "FINAL SCORE: 3/32",
-    "Restaurant System Tests": "3/15"
+    "finalTestScore": "FINAL SCORE: 9/32",
+    "Restaurant System Tests": "9/15"
   }
 }
