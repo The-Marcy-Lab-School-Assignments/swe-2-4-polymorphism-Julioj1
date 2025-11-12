@@ -36,8 +36,14 @@ class Dessert extends MenuItem {
   }
 }
 
-class Beverage {
-
+class Beverage extends MenuItem {
+  constructor(name, price, size) {
+    super(name, price);
+    this.size = size;
+  }
+  getDescription() {
+    return `${super.getDescription()} (${this.size})`
+  }
 }
 
 const printDescriptions = (menu) => {
