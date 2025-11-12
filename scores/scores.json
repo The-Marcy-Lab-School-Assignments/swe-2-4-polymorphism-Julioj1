@@ -1,9 +1,9 @@
 {
   "testScores": {
     "Payment System Tests": {
-      "PaSyTe1": 0,
-      "PaSyTe2": 0,
-      "PaSyTe3": 0,
+      "PaSyTe1": 1,
+      "PaSyTe2": 1,
+      "PaSyTe3": 1,
       "PaSyTe4": 0,
       "PaSyTe5": 0,
       "PaSyTe6": 0,
@@ -108,8 +108,8 @@
     "Restaurant System Tests printDescriptions does not use instanceof checks": "ReSyTe15"
   },
   "humanReadable": {
-    "Payment System Tests": "0/17",
-    "finalTestScore": "FINAL SCORE: 13/32",
+    "Payment System Tests": "3/17",
+    "finalTestScore": "FINAL SCORE: 16/32",
     "Restaurant System Tests": "13/15"
   }
 }
