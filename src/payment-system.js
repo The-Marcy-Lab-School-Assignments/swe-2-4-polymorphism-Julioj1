@@ -8,15 +8,25 @@ class Payment {
   }
   process() {
     this.status = "completed";
-    return `Payment of $${this.amount} to ${this.recipient} completed`
+    return `Payment of $${this.amount} to ${this.recipient} completed`;
   }
   getDetails() {
-    return `$${this.amount} to ${this.recipient} - Status: ${this.status}`
+    return `$${this.amount} to ${this.recipient} - Status: ${this.status}`;
   }
 }
 
-class CreditCardPayment {
-
+class CreditCardPayment extends Payment {
+  constructor(amount, recipient, cardNumber) {
+    super(amount, recipient);
+    this.cardNumber = cardNumber;
+  }
+  process() {
+    this.status = "completed";
+    return `${super.process()} via Credit Card ****${this.cardNumber.slice(15)}`;
+  }
+  getDetails() {
+    return `${super.getDetails()} (Card: ****${this.cardNumber.slice(15)})`
+  }
 }
 
 class PayPalPayment {
