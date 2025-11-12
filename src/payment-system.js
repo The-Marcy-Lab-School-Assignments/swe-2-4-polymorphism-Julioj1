@@ -29,8 +29,18 @@ class CreditCardPayment extends Payment {
   }
 }
 
-class PayPalPayment {
-
+class PayPalPayment extends Payment {
+  constructor(amount, recipient, email) {
+    super(amount, recipient);
+    this.email = email;
+  }
+  process() {
+    this.status = "completed";
+    return `${super.process()} via PayPal (${this.email})`
+  }
+  getDetails() {
+    return `${super.getDetails()} (PayPal: ${this.email})`
+  }
 }
 
 const processPayments = (payments) => {

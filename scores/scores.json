@@ -10,12 +10,12 @@
       "PaSyTe7": 1,
       "PaSyTe8": 1,
       "PaSyTe9": 1,
-      "PaSyTe10": 0,
-      "PaSyTe11": 0,
-      "PaSyTe12": 0,
-      "PaSyTe13": 0,
-      "PaSyTe14": 0,
-      "PaSyTe15": 0,
+      "PaSyTe10": 1,
+      "PaSyTe11": 1,
+      "PaSyTe12": 1,
+      "PaSyTe13": 1,
+      "PaSyTe14": 1,
+      "PaSyTe15": 1,
       "PaSyTe16": 0,
       "PaSyTe17": 0
     },
@@ -108,8 +108,8 @@
     "Restaurant System Tests printDescriptions does not use instanceof checks": "ReSyTe15"
   },
   "humanReadable": {
-    "Payment System Tests": "9/17",
-    "finalTestScore": "FINAL SCORE: 22/32",
+    "Payment System Tests": "15/17",
+    "finalTestScore": "FINAL SCORE: 28/32",
     "Restaurant System Tests": "13/15"
   }
 }
