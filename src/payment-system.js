@@ -45,8 +45,13 @@ class PayPalPayment extends Payment {
 
 const processPayments = (payments) => {
   payments.forEach((payment) => {
-    console.log(payment.getDetails(), payment.process())
+    console.log(payment.getDetails())
+    console.log(payment.process())
   })
+  const total = payments.reduce((totalValue, payment) => {
+    return payment.amount + totalValue
+  }, 0)
+  return total
 };
 
 module.exports = {
