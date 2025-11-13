@@ -48,13 +48,7 @@ class Beverage extends MenuItem {
 
 const printDescriptions = (menu) => {
   menu.forEach((item) => {
-    if (item instanceof Entree) {
-      console.log(item.getEntreeDescription());
-    } else if (item instanceof Dessert) {
-      console.log(item.getDessertDescription());
-    } else {
-      console.log(item.getDescription());
-    }
+    console.log(item.getDescription())
   });
 };
 

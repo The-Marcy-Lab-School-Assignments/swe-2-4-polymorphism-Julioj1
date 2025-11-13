@@ -33,8 +33,8 @@
       "ReSyTe11": 1,
       "ReSyTe12": 1,
       "ReSyTe13": 1,
-      "ReSyTe14": 0,
-      "ReSyTe15": 0
+      "ReSyTe14": 1,
+      "ReSyTe15": 1
     }
   },
   "idToTestNameHash": {
@@ -109,7 +109,7 @@
   },
   "humanReadable": {
     "Payment System Tests": "15/17",
-    "finalTestScore": "FINAL SCORE: 28/32",
-    "Restaurant System Tests": "13/15"
+    "finalTestScore": "FINAL SCORE: 30/32",
+    "Restaurant System Tests": "15/15"
   }
 }
